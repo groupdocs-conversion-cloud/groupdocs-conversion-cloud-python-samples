@@ -2,7 +2,7 @@
 
 [GroupDocs.Conversion Cloud SDK for Python](https://products.groupdocs.cloud/conversion) has been developed to help you get started with using our document conversion REST API, allowing to seamlessly convert your documents to any format you need. With this single API, you can convert back and forth between over 50 types of documents and images, including all Microsoft Office and OpenDocument file formats, PDF documents, HTML, CAD, raster images and many more.
 
-This repository contains [Examples](Examples) projects for [GroupDocs.Conversion Cloud SDK for ruby](https://products.groupdocs.cloud/conversion) to help you learn and write your own applications.
+This repository contains [Examples](Examples) projects for [GroupDocs.Conversion Cloud SDK for Python](https://products.groupdocs.cloud/conversion) to help you learn and write your own applications.
 
 <p align="center">
 
@@ -13,7 +13,7 @@ This repository contains [Examples](Examples) projects for [GroupDocs.Conversion
 
 Directory | Description
 --------- | -----------
-[Examples](Examples)  | A collection of ruby Cloud SDK examples that help you learn the product features
+[Examples](Examples)  | A collection of Python Cloud SDK examples that help you learn the product features
 
 ## Resources
 
