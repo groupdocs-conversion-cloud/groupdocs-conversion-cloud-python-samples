@@ -18,8 +18,8 @@ Directory | Description
 ## Resources
 
 + **Website:** [www.GroupDocs.cloud](http://www.GroupDocs.cloud)
-+ **Product Home:** [GroupDocs.Conversion Cloud SDK for ruby](https://products.groupdocs.cloud/conversion)
-+ **Download:** [Download GroupDocs.Conversion Cloud SDK for ruby](https://www.npmjs.com/package/groupdocs-conversion-cloud)
++ **Product Home:** [GroupDocs.Conversion Cloud SDK for Python](https://products.groupdocs.cloud/conversion)
++ **Download:** [Download GroupDocs.Conversion Cloud SDK for Python](https://www.npmjs.com/package/groupdocs-conversion-cloud)
 + **Documentation:** [GroupDocs.Conversion Cloud SDK Documentation](https://docs.groupdocs.cloud/display/conversioncloud/Home)
 + **Free Support:** [GroupDocs.Conversion Cloud SDK Free Support Forum](https://forum.groupdocs.cloud/c/conversion)
 + **Blog:** [GroupDocs.Conversion Cloud SDK Blog](https://blog.groupdocs.cloud/category/conversion/)
