@@ -7,7 +7,7 @@ class Conversion_Python_Get_All_Supported_Formats_For_Extension:
     @classmethod
     def Run(self):
         # Create instance of the API
-        api = Common_Utilities.Get_ConversionApi_Instance()
+        api = Common_Utilities.Get_InfoApi_Instance()
         
         try:
             # Retrieve supported conversion types

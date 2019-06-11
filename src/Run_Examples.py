@@ -4,9 +4,9 @@ from Common_Utilities.Utils import Common_Utilities
 
 # Get your app_sid and app_key at https://dashboard.groupdocs.cloud (free registration is required).
 Common_Utilities.host_url = "http://api.groupdocs.cloud"  # Put your Host URL here
-Common_Utilities.app_sid = "d215ce72-1609-4282-8d55-5810942236fb"
-Common_Utilities.app_key = "715d18b0afef2f303882c769921fe05a"
-Common_Utilities.myStorage = "MyStorage"
+Common_Utilities.app_sid = "XXXXX-XXXXX-XXXXX-XXXXX"
+Common_Utilities.app_key = "XXXXXXXXXXXXXXX"
+Common_Utilities.myStorage = "XXXXX"
 
 # #########################################
 # print("Executing Upload Test Files...")

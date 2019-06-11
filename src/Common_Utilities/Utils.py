@@ -10,9 +10,14 @@ class Common_Utilities:
     myStorage = None
     
     @classmethod
-    def Get_ConversionApi_Instance(self):
+    def Get_ConvertApi_Instance(self):
         # Create instance of the API
-        return groupdocs_conversion_cloud.ConversionApi.from_keys(Common_Utilities.app_sid, Common_Utilities.app_key)
+        return groupdocs_conversion_cloud.ConvertApi.from_keys(Common_Utilities.app_sid, Common_Utilities.app_key)
+    
+    @classmethod
+    def Get_InfoApi_Instance(self):
+        # Create instance of the API
+        return groupdocs_conversion_cloud.InfoApi.from_keys(Common_Utilities.app_sid, Common_Utilities.app_key)
     
     @classmethod
     def Get_StorageApi_Instance(self):
