@@ -8,7 +8,7 @@ class Conversion_Python_Convert_To_Slides:
     @classmethod
     def Run(self):
         # Create instance of the API
-        api = Common_Utilities.Get_ConversionApi_Instance()
+        api = Common_Utilities.Get_ConvertApi_Instance()
         
         try:
             settings = groupdocs_conversion_cloud.ConvertSettings()
