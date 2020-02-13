@@ -1,0 +1,130 @@
+# Import modules
+import groupdocs_conversion_cloud
+from Common import Common
+
+# Get your app_sid and app_key at https://dashboard.groupdocs.cloud (free registration is required).
+Common.app_sid = "XXXX-XXXX-XXXX-XXXX"
+Common.app_key = "XXXXXXXXXXXXXXXX"
+
+Common.myStorage = "First Storage"
+
+# Uploading sample test files from local disk to cloud storage
+Common.UploadSampleFiles()
+
+# Info API Examples
+from Info.GetSupportedConversions import GetSupportedConversions
+GetSupportedConversions.Run()
+
+from Info.GetInfo import GetInfo
+GetInfo.Run()
+
+# Document conversion examples with conversion options
+from Convert.ConvertToWordProcessing import ConvertToWordProcessing
+ConvertToWordProcessing.Run()
+
+from Convert.ConvertToPdf import ConvertToPdf
+ConvertToPdf.Run()
+
+from Convert.ConvertToPdfResponseBody import ConvertToPdfResponseBody
+ConvertToPdfResponseBody.Run()
+
+from Convert.ConvertToHtml import ConvertToHtml
+ConvertToHtml.Run()
+
+from Convert.ConvertToImage import ConvertToImage
+ConvertToImage.Run()
+
+from Convert.ConvertToPresentation import ConvertToPresentation
+ConvertToPresentation.Run()
+
+from Convert.ConvertToSpreadsheet import ConvertToSpreadsheet
+ConvertToSpreadsheet.Run()
+
+# Document conversion examples with common options
+from CommonOptions.AddWatermark import AddWatermark
+AddWatermark.Run()
+
+from CommonOptions.ConvertConsecutivePages import ConvertConsecutivePages
+ConvertConsecutivePages.Run()
+
+from CommonOptions.ConvertSpecificPages import ConvertSpecificPages
+ConvertSpecificPages.Run()
+
+# Document conversion examples with loading options
+from LoadOptionsByDocumentType.Cad.ConvertCadAndSpecifyLoadOptions import ConvertCadAndSpecifyLoadOptions
+ConvertCadAndSpecifyLoadOptions.Run()
+
+from LoadOptionsByDocumentType.Csv.ConvertCsvByConvertingDateTimeAndNumericData import ConvertCsvByConvertingDateTimeAndNumericData
+ConvertCsvByConvertingDateTimeAndNumericData.Run()
+
+from LoadOptionsByDocumentType.Csv.ConvertCsvBySpecifyingDelimiter import ConvertCsvBySpecifyingDelimiter
+ConvertCsvBySpecifyingDelimiter.Run()
+
+from LoadOptionsByDocumentType.Csv.ConvertCsvBySpecifyingEncoding import ConvertCsvBySpecifyingEncoding
+ConvertCsvBySpecifyingEncoding.Run()
+
+from LoadOptionsByDocumentType.Email.ConvertEmailWithAlteringFieldsVisibility import ConvertEmailWithAlteringFieldsVisibility
+ConvertEmailWithAlteringFieldsVisibility.Run()
+
+from LoadOptionsByDocumentType.Email.ConvertEmailWithAttachments import ConvertEmailWithAttachments
+ConvertEmailWithAttachments.Run()
+
+from LoadOptionsByDocumentType.Email.ConvertEmailWithTimezoneOffset import ConvertEmailWithTimezoneOffset
+ConvertEmailWithTimezoneOffset.Run()
+
+from LoadOptionsByDocumentType.Note.ConvertNoteBySpecifyingFontSubstitution import ConvertNoteBySpecifyingFontSubstitution
+ConvertNoteBySpecifyingFontSubstitution.Run()
+
+from LoadOptionsByDocumentType.Pdf.ConvertPdfAndFlattenAllFields import ConvertPdfAndFlattenAllFields
+ConvertPdfAndFlattenAllFields.Run()
+
+from LoadOptionsByDocumentType.Pdf.ConvertPdfAndHideAnnotations import ConvertPdfAndHideAnnotations
+ConvertPdfAndHideAnnotations.Run()
+
+from LoadOptionsByDocumentType.Pdf.ConvertPdfAndRemoveEmbeddedFiles import ConvertPdfAndRemoveEmbeddedFiles
+ConvertPdfAndRemoveEmbeddedFiles.Run()
+
+from LoadOptionsByDocumentType.Presentation.ConvertPresentationByHidingComments import ConvertPresentationByHidingComments
+ConvertPresentationByHidingComments.Run()
+
+from LoadOptionsByDocumentType.Presentation.ConvertPresentationBySpecifyingFontSubstitution import ConvertPresentationBySpecifyingFontSubstitution
+ConvertPresentationBySpecifyingFontSubstitution.Run()
+
+from LoadOptionsByDocumentType.Presentation.ConvertPresentationWithHiddenSlidesIncluded import ConvertPresentationWithHiddenSlidesIncluded
+ConvertPresentationWithHiddenSlidesIncluded.Run()
+
+from LoadOptionsByDocumentType.Spreadsheet.ConvertSpreadsheetAndHideComments import ConvertSpreadsheetAndHideComments
+ConvertSpreadsheetAndHideComments.Run()
+
+from LoadOptionsByDocumentType.Spreadsheet.ConvertSpreadsheetByShowingGridLines import ConvertSpreadsheetByShowingGridLines
+ConvertSpreadsheetByShowingGridLines.Run()
+
+from LoadOptionsByDocumentType.Spreadsheet.ConvertSpreadsheetBySkippingEmptyRowsAndColumns import ConvertSpreadsheetBySkippingEmptyRowsAndColumns
+ConvertSpreadsheetBySkippingEmptyRowsAndColumns.Run()
+
+from LoadOptionsByDocumentType.Spreadsheet.ConvertSpreadsheetBySpecifyingFontsubstitution import ConvertSpreadsheetBySpecifyingFontsubstitution
+ConvertSpreadsheetBySpecifyingFontsubstitution.Run()
+
+from LoadOptionsByDocumentType.Spreadsheet.ConvertSpreadsheetBySpecifyingRange import ConvertSpreadsheetBySpecifyingRange
+ConvertSpreadsheetBySpecifyingRange.Run()
+
+from LoadOptionsByDocumentType.Spreadsheet.ConvertSpreadsheetWithHiddenSheetsIncluded import ConvertSpreadsheetWithHiddenSheetsIncluded
+ConvertSpreadsheetWithHiddenSheetsIncluded.Run()
+
+from LoadOptionsByDocumentType.Txt.ConvertTxtByControllingLeadingSpacesBehavior import ConvertTxtByControllingLeadingSpacesBehavior
+ConvertTxtByControllingLeadingSpacesBehavior.Run()
+
+from LoadOptionsByDocumentType.Txt.ConvertTxtByControllingTrailingSpacesBehavior import ConvertTxtByControllingTrailingSpacesBehavior
+ConvertTxtByControllingTrailingSpacesBehavior.Run()
+
+from LoadOptionsByDocumentType.Txt.ConvertTxtBySpecifyingEncoding import ConvertTxtBySpecifyingEncoding
+ConvertTxtBySpecifyingEncoding.Run()
+
+from LoadOptionsByDocumentType.WordProcessing.ConvertWordProcessingByHidingComments import ConvertWordProcessingByHidingComments
+ConvertWordProcessingByHidingComments.Run()
+
+from LoadOptionsByDocumentType.WordProcessing.ConvertWordProcessingByHidingTrackedChanges import ConvertWordProcessingByHidingTrackedChanges
+ConvertWordProcessingByHidingTrackedChanges.Run()
+
+from LoadOptionsByDocumentType.WordProcessing.ConvertWordProcessingBySpecifyingFontSubstitution import ConvertWordProcessingBySpecifyingFontSubstitution
+ConvertWordProcessingBySpecifyingFontSubstitution.Run()
