@@ -23,7 +23,7 @@ The package contains Python examples. Follow the given steps to proceed run:
 * Extract the downloaded project
 * Edit Common.py and put there appSid and appKey, obtained from [https://dashboard.groupdocs.cloud](https://dashboard.groupdocs.cloud)
 * Go to "Examples" directory of the project
-* Execute "pip install groupdocs_conversion_cloud" command
+* Execute "pip install groupdocs_conversion_cloud -U" command
 * Run examples using "python RunExamples.py" command
 
 For more details, visit  [Getting Started](https://docs.groupdocs.cloud/display/conversioncloud/Getting+Started).

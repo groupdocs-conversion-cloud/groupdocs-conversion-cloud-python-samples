@@ -72,6 +72,15 @@ ConvertEmailWithAttachments.Run()
 from LoadOptionsByDocumentType.Email.ConvertEmailWithTimezoneOffset import ConvertEmailWithTimezoneOffset
 ConvertEmailWithTimezoneOffset.Run()
 
+from LoadOptionsByDocumentType.Email.ConvertEmailWithFieldLabels import ConvertEmailWithFieldLabels
+ConvertEmailWithFieldLabels.Run()
+
+from LoadOptionsByDocumentType.Email.ConvertEmailWithOriginalDate import ConvertEmailWithOriginalDate
+ConvertEmailWithOriginalDate.Run()
+
+from LoadOptionsByDocumentType.Html.ConvertHtmlWithPageNumbering import ConvertHtmlWithPageNumbering
+ConvertHtmlWithPageNumbering.Run()
+
 from LoadOptionsByDocumentType.Note.ConvertNoteBySpecifyingFontSubstitution import ConvertNoteBySpecifyingFontSubstitution
 ConvertNoteBySpecifyingFontSubstitution.Run()
 
