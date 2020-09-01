@@ -26,17 +26,9 @@ The package contains Python examples. Follow the given steps to proceed run:
 * Execute "pip install groupdocs_conversion_cloud -U" command
 * Run examples using "python RunExamples.py" command
 
-For more details, visit  [Getting Started](https://docs.groupdocs.cloud/display/conversioncloud/Getting+Started).
+For more details, visit  [Getting Started](https://docs.groupdocs.cloud/conversion/getting-started/).
 
 ## Licensing
 All GroupDocs.Conversion Cloud SDKs are licensed under [MIT License](LICENSE).
 
-## Resources
-+ [**Website**](https://www.groupdocs.cloud)
-+ [**Product Home**](https://products.groupdocs.cloud/conversion)
-+ [**Documentation**](https://docs.groupdocs.cloud/display/conversioncloud/Home)
-+ [**Free Support Forum**](https://forum.groupdocs.cloud/c/conversion)
-+ [**Blog**](https://blog.groupdocs.cloud/category/conversion)
-
-## Contact Us
-Your feedback is very important to us. Please feel free to contact us using our [Support Forums](https://forum.groupdocs.cloud/c/conversion).
+[Home](https://www.groupdocs.cloud/) | [Product Page](https://products.groupdocs.cloud/conversion/python) | [Docs](https://docs.groupdocs.cloud/conversion/) | [Demos](https://products.groupdocs.app/conversion/family) | [API Reference](https://apireference.groupdocs.cloud/conversion/) | [Source Code](https://github.com/groupdocs-conversion-cloud/groupdocs-conversion-cloud-python) | [Blog](https://blog.groupdocs.cloud/category/conversion/) | [Free Support](https://forum.groupdocs.cloud/c/conversion) | [Free Trial](https://purchase.groupdocs.cloud/trial)
