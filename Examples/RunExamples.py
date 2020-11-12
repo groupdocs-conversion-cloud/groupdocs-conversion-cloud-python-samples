@@ -4,7 +4,7 @@ from Common import Common
 
 # Get your app_sid and app_key at https://dashboard.groupdocs.cloud (free registration is required).
 Common.app_sid = "XXXX-XXXX-XXXX-XXXX"
-Common.app_key = "XXXXXXXXXXXXXXXX"
+Common.app_key = "XXXXXXXXXXXXXXXXX"
 
 Common.myStorage = "First Storage"
 
@@ -39,6 +39,9 @@ ConvertToPresentation.Run()
 
 from Convert.ConvertToSpreadsheet import ConvertToSpreadsheet
 ConvertToSpreadsheet.Run()
+
+from Convert.ConvertToPdfDirect import ConvertToPdfDirect
+ConvertToPdfDirect.Run()
 
 # Document conversion examples with common options
 from CommonOptions.AddWatermark import AddWatermark

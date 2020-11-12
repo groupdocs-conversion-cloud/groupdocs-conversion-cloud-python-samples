@@ -6,6 +6,6 @@ from Common import Common
 class GetSupportedConversions:
     @classmethod  
     def Run(cls):
-        infoApi = groupdocs_conversion_cloud.InfoApi.from_keys(Common.app_sid, Common.app_key)
+        infoApi = groupdocs_conversion_cloud.InfoApi.from_config(Common.GetConfig())
         result = infoApi.get_supported_conversion_types(groupdocs_conversion_cloud.GetSupportedConversionTypesRequest())
         print("Formats count: " + str(len(result)))

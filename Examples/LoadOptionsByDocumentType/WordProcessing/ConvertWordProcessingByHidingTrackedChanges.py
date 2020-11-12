@@ -7,7 +7,7 @@ class ConvertWordProcessingByHidingTrackedChanges:
     @classmethod  
     def Run(cls):
         # Create necessary API instances
-        apiInstance = groupdocs_conversion_cloud.ConvertApi.from_keys(Common.app_sid, Common.app_key)
+        apiInstance = groupdocs_conversion_cloud.ConvertApi.from_config(Common.GetConfig())
         
         # Prepare convert settings
         settings = groupdocs_conversion_cloud.ConvertSettings()

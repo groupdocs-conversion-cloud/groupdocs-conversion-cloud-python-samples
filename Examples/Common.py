@@ -10,11 +10,17 @@ class Common:
     myStorage = None
     
     @classmethod  
+    def GetConfig(cls):
+        configuration = groupdocs_conversion_cloud.Configuration(cls.app_sid, cls.app_key)
+        configuration.api_base_url = "https://api.groupdocs.cloud"
+        return configuration    
+
+    @classmethod  
     def UploadSampleFiles(cls):
         
         # api initialization
-        storageApi = groupdocs_conversion_cloud.StorageApi.from_keys(cls.app_sid, cls.app_key)
-        fileApi = groupdocs_conversion_cloud.FileApi.from_keys(cls.app_sid, cls.app_key)
+        storageApi = groupdocs_conversion_cloud.StorageApi.from_config(cls.GetConfig())
+        fileApi = groupdocs_conversion_cloud.FileApi.from_config(cls.GetConfig())
 
         # upload sample files
         for filename in glob.iglob("Resources/**/*.*", recursive=True):

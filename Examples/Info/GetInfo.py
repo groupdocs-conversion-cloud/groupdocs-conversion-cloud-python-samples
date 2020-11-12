@@ -6,7 +6,7 @@ from Common import Common
 class GetInfo:
     @classmethod  
     def Run(cls):
-        infoApi = groupdocs_conversion_cloud.InfoApi.from_keys(Common.app_sid, Common.app_key)
+        infoApi = groupdocs_conversion_cloud.InfoApi.from_config(Common.GetConfig())
         request = groupdocs_conversion_cloud.GetDocumentMetadataRequest()
         request.file_path = "WordProcessing/four-pages.docx"
         result = infoApi.get_document_metadata(request)        
