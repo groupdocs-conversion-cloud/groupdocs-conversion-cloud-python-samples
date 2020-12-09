@@ -2,9 +2,9 @@
 import groupdocs_conversion_cloud
 from Common import Common
 
-# Get your app_sid and app_key at https://dashboard.groupdocs.cloud (free registration is required).
-Common.app_sid = "XXXX-XXXX-XXXX-XXXX"
-Common.app_key = "XXXXXXXXXXXXXXXXX"
+# Get your ClientId and ClientSecret at https://dashboard.groupdocs.cloud (free registration is required).
+Common.client_id = "XXXX-XXXX-XXXX-XXXX"
+Common.client_secret = "XXXXXXXXXXXXXXXXX"
 
 Common.myStorage = "First Storage"
 
