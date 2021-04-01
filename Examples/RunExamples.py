@@ -53,6 +53,9 @@ ConvertConsecutivePages.Run()
 from CommonOptions.ConvertSpecificPages import ConvertSpecificPages
 ConvertSpecificPages.Run()
 
+from CommonOptions.ConvertUsingCustomFont import ConvertUsingCustomFont
+ConvertUsingCustomFont.Run()
+
 # Document conversion examples with loading options
 from LoadOptionsByDocumentType.Cad.ConvertCadAndSpecifyLoadOptions import ConvertCadAndSpecifyLoadOptions
 ConvertCadAndSpecifyLoadOptions.Run()
