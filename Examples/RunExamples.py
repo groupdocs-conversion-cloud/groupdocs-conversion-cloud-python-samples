@@ -43,6 +43,9 @@ ConvertToSpreadsheet.Run()
 from Convert.ConvertToPdfDirect import ConvertToPdfDirect
 ConvertToPdfDirect.Run()
 
+from Convert.ConvertToPdfDirectOptions import ConvertToPdfDirectOptions
+ConvertToPdfDirectOptions.Run()
+
 # Document conversion examples with common options
 from CommonOptions.AddWatermark import AddWatermark
 AddWatermark.Run()
