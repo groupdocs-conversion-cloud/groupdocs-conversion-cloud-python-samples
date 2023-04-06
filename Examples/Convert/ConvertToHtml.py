@@ -13,7 +13,7 @@ class ConvertToHtml:
         settings = groupdocs_conversion_cloud.ConvertSettings()
         settings.file_path = "WordProcessing/four-pages.docx"
         settings.format = "html"
-        convertOptions = groupdocs_conversion_cloud.HtmlConvertOptions() 
+        convertOptions = groupdocs_conversion_cloud.WebConvertOptions() 
         convertOptions.from_page = 1
         convertOptions.pages_count = 1
         convertOptions.fixed_layout = True

@@ -14,7 +14,7 @@ class ConvertHtmlWithPageNumbering:
         settings.file_path = "Html/sample.html"
         settings.format = "pdf"
 
-        loadOptions = groupdocs_conversion_cloud.HtmlLoadOptions()
+        loadOptions = groupdocs_conversion_cloud.WebLoadOptions()
         loadOptions.page_numbering = True
 
         settings.load_options = loadOptions
