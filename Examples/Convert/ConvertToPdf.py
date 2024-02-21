@@ -20,7 +20,7 @@ class ConvertToPdf:
         convertOptions.center_window = True
         convertOptions.compress_images = False
         convertOptions.display_doc_title = True
-        convertOptions.dpi = 1024.0
+        convertOptions.dpi = 1024
         convertOptions.fit_window = False
         convertOptions.from_page = 1
         convertOptions.grayscale = False
