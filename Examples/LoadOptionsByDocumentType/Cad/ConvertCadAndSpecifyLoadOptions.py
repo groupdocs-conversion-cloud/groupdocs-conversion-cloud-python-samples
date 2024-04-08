@@ -15,8 +15,7 @@ class ConvertCadAndSpecifyLoadOptions:
         settings.format = "pdf"
 
         loadOptions = groupdocs_conversion_cloud.CadLoadOptions()
-        loadOptions.width = 1920
-        loadOptions.height = 1080
+        loadOptions.format = "dwg"
 
         settings.load_options = loadOptions
         settings.output_path = "converted"
