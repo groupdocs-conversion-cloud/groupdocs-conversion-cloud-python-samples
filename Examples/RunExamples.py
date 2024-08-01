@@ -146,3 +146,9 @@ ConvertWordProcessingByHidingTrackedChanges.Run()
 
 from LoadOptionsByDocumentType.WordProcessing.ConvertWordProcessingBySpecifyingFontSubstitution import ConvertWordProcessingBySpecifyingFontSubstitution
 ConvertWordProcessingBySpecifyingFontSubstitution.Run()
+
+from Convert.Async.ConvertToPdfAsync import ConvertToPdfAsync
+ConvertToPdfAsync.Run()
+
+from Convert.Async.ConvertToPdfDirectAsync import ConvertToPdfDirectAsync
+ConvertToPdfDirectAsync.Run()
