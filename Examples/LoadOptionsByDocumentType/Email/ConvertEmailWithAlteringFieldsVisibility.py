@@ -18,7 +18,6 @@ class ConvertEmailWithAlteringFieldsVisibility:
         loadOptions.display_header = False
         loadOptions.display_from_email_address = False
         loadOptions.display_to_email_address = False
-        loadOptions.display_email_address = False
         loadOptions.display_cc_email_address = False
         loadOptions.display_bcc_email_address = False
 
