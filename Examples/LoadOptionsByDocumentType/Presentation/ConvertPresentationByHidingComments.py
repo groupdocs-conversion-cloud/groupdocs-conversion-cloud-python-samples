@@ -15,7 +15,7 @@ class ConvertPresentationByHidingComments:
         settings.format = "pdf"
 
         loadOptions = groupdocs_conversion_cloud.PresentationLoadOptions()
-        loadOptions.hide_comments = True
+        loadOptions.comments_position = "None"
 
         settings.load_options = loadOptions
         settings.output_path = "converted"
