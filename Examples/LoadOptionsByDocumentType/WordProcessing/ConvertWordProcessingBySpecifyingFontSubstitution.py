@@ -15,7 +15,6 @@ class ConvertWordProcessingBySpecifyingFontSubstitution:
         settings.format = "pdf"
 
         loadOptions = groupdocs_conversion_cloud.WordProcessingLoadOptions()
-        loadOptions.auto_font_substitution = False
         loadOptions.default_font = "Helvetica"
         loadOptions.font_substitutes = {"Tahoma" : "Arial", "Times New Roman" : "Arial"}        
 
