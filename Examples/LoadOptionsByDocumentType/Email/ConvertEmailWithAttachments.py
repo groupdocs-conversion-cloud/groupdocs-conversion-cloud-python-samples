@@ -15,7 +15,7 @@ class ConvertEmailWithAttachments:
         settings.format = "pdf"
 
         loadOptions = groupdocs_conversion_cloud.EmailLoadOptions()
-        loadOptions.convert_attachments = True
+        loadOptions.display_attachments = True
 
         settings.load_options = loadOptions
         settings.output_path = "converted"

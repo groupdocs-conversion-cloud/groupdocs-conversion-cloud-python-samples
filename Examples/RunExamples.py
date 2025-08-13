@@ -6,7 +6,7 @@ from Common import Common
 Common.client_id = "XXXX-XXXX-XXXX-XXXX"
 Common.client_secret = "XXXXXXXXXXXXXXXXX"
 
-Common.myStorage = "First Storage"
+Common.myStorage = None # Use default storage
 
 # Uploading sample test files from local disk to cloud storage
 Common.UploadSampleFiles()
