@@ -10,7 +10,7 @@ class ConvertToPdfDirectOptions:
         apiInstance = groupdocs_conversion_cloud.ConvertApi.from_config(Common.GetConfig())
         
         # Prepare request
-        load_options = groupdocs_conversion_cloud.DocxLoadOptions()
+        load_options = groupdocs_conversion_cloud.WordProcessingLoadOptions()
         load_options.format = "docx"
         load_options.password = "password"
         request = groupdocs_conversion_cloud.ConvertDocumentDirectRequest("pdf", "Resources\\WordProcessing\\password-protected.docx", None, None, load_options)

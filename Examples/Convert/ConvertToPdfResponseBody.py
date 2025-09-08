@@ -14,7 +14,7 @@ class ConvertToPdfResponseBody:
         settings.file_path = "WordProcessing/password-protected.docx"
         settings.format = "pdf"
 
-        loadOptions = groupdocs_conversion_cloud.DocxLoadOptions()
+        loadOptions = groupdocs_conversion_cloud.WordProcessingLoadOptions()
         loadOptions.password = "password"
         convertOptions = groupdocs_conversion_cloud.PdfConvertOptions()
         convertOptions.center_window = True
