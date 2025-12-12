@@ -13,7 +13,7 @@ class ConvertToImage:
         settings = groupdocs_conversion_cloud.ConvertSettings()
         settings.file_path = "WordProcessing/four-pages.docx"
         settings.format = "jpg"
-        convertOptions = groupdocs_conversion_cloud.JpgConvertOptions() 
+        convertOptions = groupdocs_conversion_cloud.ImageConvertOptions() 
         convertOptions.from_page = 1
         convertOptions.pages_count = 2		
         settings.convert_options = convertOptions     

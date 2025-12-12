@@ -21,7 +21,7 @@ class ConvertToWordProcessing:
         loadOptions.flatten_all_fields = True
 
         settings.load_options = loadOptions
-        settings.convert_options = groupdocs_conversion_cloud.DocxConvertOptions()
+        settings.convert_options = groupdocs_conversion_cloud.WordProcessingConvertOptions()
         settings.output_path = "converted"
 
         # Convert
